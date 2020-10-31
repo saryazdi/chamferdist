@@ -78,7 +78,7 @@ setup(
     version=__version__,
     description="Pytorch Chamfer distance",
     packages=find_packages(),
-    package_data={'chamferdist': ['*.h', '*.cuh', '*.cpp', '*.cu']},
+    package_data={'chamferdist': ['*.cu', '*.cuh', '*.h']},
     long_description=long_description,
     install_requires=[],
     extras_require={
